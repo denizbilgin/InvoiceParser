@@ -1,9 +1,10 @@
 import json
 import os
 from typing import Any
-
+import cv2
 import PyPDF2
-
+import numpy as np
+from PIL import Image
 from readers.pdf_type import PDFType
 
 
@@ -30,3 +31,23 @@ def detect_pdf_type(file_path: str) -> PDFType:
     except Exception as e:
         print(f"PDF type not detected: {e}")
         return PDFType.MIXED
+
+
+def preprocess_image(image: Image.Image) -> Image.Image:
+    try:
+        img_array = np.array(image)
+        if len(img_array.shape) == 3:
+            gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+        else:
+            gray = img_array
+
+        denoised = cv2.fastNlMeansDenoising(gray)
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+        enhanced = clahe.apply(denoised)
+
+        _, thresh = cv2.threshold(enhanced, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        return Image.fromarray(thresh)
+
+    except Exception as e:
+        print(f"Image preprocessing error: {e}")
+        return image
