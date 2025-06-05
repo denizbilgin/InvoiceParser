@@ -1,0 +1,22 @@
+{
+    "success": true,
+    "filename": "20250221092842541.pdf",
+    "pdf_type": "scanned_image",
+    "content": {
+        "text": "GLOBAL TECH SOLUTIONS LTD.\n123 Innovation Street\nTech District\nLondon, UK EC1A 1BB\nTel: +44 20 7123 4567\nVAT: GB123456789\nINVOICE\nInvoice Number: [NV-43071\nInvoice Date: 20/02/2025\nDue Date: 22/03/2025\nBILL TO:\nTech Innovations Inc.\nAttn: Procurement Department\n789 Silicon Avenue\nSan Francisco, CA 94105\nUSA\nVAT: US987654321\nDESCRIPTION\n« Software Development Services - Frontend Development\nHours: 80 x Rate: $145.00/hr\nAmount: $11,600.00\n» Backend API Integration\nHours: 120 x Rate: $165.00/hr\nAmount: $19,800.00\n« Cloud Infrastructure Setup\nHours: 40 x Rate: $185.00/hr\nAmount: $7,400.00\n\n* Security Audit and Implementation\nHours: 35 x Rate: $195.00/hr\nAmount: $6,825.00\n« =Project Management\nHours: 45 x Rate: $125.00/hr\nAmount: $5,625.00\nSubtotal: $51,250.00\nVAT (20%): $10,250.00\nTotal: $61,500.00\nPayment Details:\nBank: Barclays Bank\nAccount Name: Global Tech Solutions Ltd\nSort Code: 20-00-00\nAccount Number: 12345678\nIBAN: GB29 BARC 2000 0012 3456 78\nSWIFT/BIC: BARCGB22\nTerms & Conditions:\n1, Payment is due within 30 days\n2. Please include invoice number in payment reference\n3. Late payments are subject to 2% monthly interest charge\n\n",
+        "pages": [
+            {
+                "page_number": 1,
+                "text": "GLOBAL TECH SOLUTIONS LTD.\n123 Innovation Street\nTech District\nLondon, UK EC1A 1BB\nTel: +44 20 7123 4567\nVAT: GB123456789\nINVOICE\nInvoice Number: [NV-43071\nInvoice Date: 20/02/2025\nDue Date: 22/03/2025\nBILL TO:\nTech Innovations Inc.\nAttn: Procurement Department\n789 Silicon Avenue\nSan Francisco, CA 94105\nUSA\nVAT: US987654321\nDESCRIPTION\n« Software Development Services - Frontend Development\nHours: 80 x Rate: $145.00/hr\nAmount: $11,600.00\n» Backend API Integration\nHours: 120 x Rate: $165.00/hr\nAmount: $19,800.00\n« Cloud Infrastructure Setup\nHours: 40 x Rate: $185.00/hr\nAmount: $7,400.00\n",
+                "method": "ocr_tesseract"
+            },
+            {
+                "page_number": 2,
+                "text": "* Security Audit and Implementation\nHours: 35 x Rate: $195.00/hr\nAmount: $6,825.00\n« =Project Management\nHours: 45 x Rate: $125.00/hr\nAmount: $5,625.00\nSubtotal: $51,250.00\nVAT (20%): $10,250.00\nTotal: $61,500.00\nPayment Details:\nBank: Barclays Bank\nAccount Name: Global Tech Solutions Ltd\nSort Code: 20-00-00\nAccount Number: 12345678\nIBAN: GB29 BARC 2000 0012 3456 78\nSWIFT/BIC: BARCGB22\nTerms & Conditions:\n1, Payment is due within 30 days\n2. Please include invoice number in payment reference\n3. Late payments are subject to 2% monthly interest charge\n",
+                "method": "ocr_tesseract"
+            }
+        ],
+        "pages_count": 2,
+        "method": "ocr_tesseract"
+    }
+}
