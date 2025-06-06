@@ -2,12 +2,13 @@ import io
 from typing import Dict, Any
 from typing import List
 import PyPDF2
-from utils import preprocess_image
+from utils import preprocess_image, extract_tables_from_page_text, ocr_text_with_paragraphs
 import fitz
 import pytesseract
 from readers.pdf_type import PDFType
-from readers.reader import Reader
+from readers.abstracts.reader import Reader
 from PIL import Image
+import layoutparser as lp
 
 
 class ScannedPDFReader(Reader):
@@ -30,11 +31,13 @@ class ScannedPDFReader(Reader):
 
             for page_number, image in enumerate(images):
                 processed_image = preprocess_image(image)
-                page_text = pytesseract.image_to_string(processed_image, config=self.ocr_config, lang='eng+tur')
+                page_text = ocr_text_with_paragraphs(processed_image, ocr_config=self.ocr_config)
+                tables = extract_tables_from_page_text(page_text)
 
                 pages_content.append({
                     "page_number": page_number + 1,
                     "text": page_text,
+                    "tables": tables,
                     "method": "ocr_tesseract"
                 })
 
@@ -42,7 +45,7 @@ class ScannedPDFReader(Reader):
 
             return {
                 "success": True,
-                'filename': self.file_path.split('\\')[1],
+                'filename': self.file_path,
                 "pdf_type": self.pdf_type.value,
                 "content": {
                     "text": full_text,
@@ -63,7 +66,7 @@ class ScannedPDFReader(Reader):
             for page_number in range(len(document)):
                 page = document.load_page(page_number)
 
-                mat = fitz.Matrix(2.0, 2.0)
+                mat = fitz.Matrix(2, 2)
                 pix = page.get_pixmap(matrix=mat)
                 img_data = pix.tobytes("ppm")
 

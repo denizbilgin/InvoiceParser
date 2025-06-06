@@ -2,7 +2,7 @@ from PIL import Image
 from readers.pdf_type import PDFType
 from readers.text_based_pdf_reader import TextBasedPDFReader
 from readers.scanned_pdf_reader import ScannedPDFReader
-from readers.reader import Reader
+from readers.abstracts.reader import Reader
 from utils import detect_pdf_type
 
 

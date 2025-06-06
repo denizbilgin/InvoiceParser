@@ -1,48 +1,408 @@
 {
     "success": true,
-    "filename": "20250221125114588.pdf",
+    "filename": "./invoices\\20250221125114588.pdf",
     "pdf_type": "scanned_image",
     "content": {
-        "text": "GLOBAL TECH SOLUTIONS LTD.\n123 Innovation Street\nTech City, TC 54321\nUnited Kingdom\nVAT: GB123456789\nINVOICE NUMBER: INV-62340\nDATE: 09/02/2025\nPO NUMBER: PO-135298\nBILL TO:\nTurkish Electronics Corporation\nTeknoloji Mahallesi\nDigitat Plaza No:45\n34000 Istanbul, Turkey\nVAT: TR987654321\nINVOICE DETAILS:\n1. Semiconductor Parts\nProduct Code: PRD-7338-U\nQuantity: 18 units\nUnit Price: $18.08\nAmount: $325.44\n2. Industrial Controls\nProduct Code: PRD-2918-Q\nQuantity: 25 units\nUnit Price: $456.78\nAmount: $11419,50\n3. Industrial Controls\nProduct Code: PRD-3013-P\nQuantity: 56 units\nUnit Price: $817.91\nAmount: $45802.96\n\n4, Industrial Controls\nProduct Code: PRD-6726-P\nQuantity: 42 units\nUnit Price: $52.86\nAmount: $2220.12\n5S. Semiconductor Parts\nProduct Code: PRD-8618-V\nQuantity: 65 units\nUnit Price: $175.38\nAmount: $11399,70\n6. Electronic Components\nProduct Code: PRD-7378-Y\nQuantity: 18 units\nUnit Price: $121.70\nAmount: $2190.60\n7, Electronic Components\nProduct Code: PRD-8373-N\nQuantity: 19 units\nUnit Price: $902.24\nAmount: $17142.56\n8. Circuit Boards\nProduct Code: PRD-5464-H\nQuantity: 4 units\nUnit Price: $860.40\nAmount: $3441.60\n9, Circuit Boards\nProduct Code: PRD-1497-Y\nQuantity: 95 units\nUnit Price: $956.79\nAmount: $90895.05\n10. Semiconductor Parts\nProduct Code: PRD-8247-1\nQuantity: 20 units\n\nUnit Price: $319.72\nAmount: $6394.40\n11, Testing Equipment\nProduct Code: PRD-7611-A\nQuantity: 8 units\nUnit Price: $743.48\nAmount: $5947.84\n12. Industrial Controjs\nProduct Code: PRD-9400-A\nQuantity: 93 units\nUnit Price: $38.06\nAmount: $3539.58\n13. Testing Equipment\nProduct Code: PRD-2020-E\nQuantity: 47 units\nUnit Price: $17.71\nAmount: $832.37\n14. Industrial Controls\nProduct Code: PRD-9365-1\nQuantity: 43 units\nUnit Price: $808.81\nAmount: $34778.83\n15. Circuit Boards\nProduct Code: PRD-1141-G\nQuantity: 28 units\nUnit Price: $178.71\nAmount: $5003.88\n16. Industrial Controls\nProduct Code: PRD-8328-H\nQuantity: 68 units\nUnit Price: $673.08\nAmount: $45769.44\n\n17. Circuit Boards\nProduct Code: PRD-1824-F\nQuantity: 84 units\nUnit Price: $287.45\nAmount: $24145.80\n18. Electronic Components\nProduct Code: PRD-4863-U\nQuantity: 65 units\nUnit Price: $561.96\nAmount: $36527,40\n19, Electronic Components\nProduct Code: PRD-8536-K\nQuantity: 24 units\nUnit Price: $833.55\nAmount: $20005.20\n20. Testing Equipment\nProduct Code: PRD-1324-T\nQuantity: 19 units\nUnit Price: $765.07\nAmount: $14536.33\n21. Semiconductor Parts\nProduct Code: PRD-6072-N\nQuantity: 7 units\nUnit Price: $357.55\nAmount: $2502.85\n22, Industrial Controls\nProduct Code: PRD-6566-X\nQuantity: 25 units\nUnit Price: $25.00\nAmount: $625.00\n23. Semiconductor Parts\nProduct Code: PRD-4120-C\nQuantity: 90 units\n\nUnit Price: $26.81\nAmount: $2412.90\n\n24, Semiconductor Parts\nProduct Code: PRID-5444-V\nQuantity; 48 units\nUnit Price: $602.36\nAmount: $28913.28\n\n25. Industrial Controls\nProduct Code: PRD-9603-E\nQuantity: 36 units\nUnit Price: $884.13\nAmount: $31828.68\n26. Power Supplies\nProduct Code: PRD-8637-M\nQuantity: 38 units\nUnit Price: $746.04\nAmount: $28349.52\n27, Semiconductor Parts\nProduct Code: PRI-9138-S\nQuantity: 86 units\nUnit Price: $998.83\nAmount; $85899.38\n\n28. Power Supplies\nProduct Code: PRD-8909-1\nQuantity: 23 units\nUnit Price: $625.72\nAmount: $14391.56\n29. Industrial Controls\nProduct Code: PRD-4919-L\nQuantity: 92 units\nUnit Price: $295.58\nAmount: $27193.36\n\n30. Industrial Controls\nProduct Code: PRD-5819-G\nQuantity: 92 units\nUnit Price: $388.45\nAmount: $35737.40\n31. Testing Equipment\nProduct Code: PRD-7893-N\nQuantity: 39 units\nUnit Price: $709.53\nAmount: $27671.67\n32. Electronic Components\nProduct Code: PRD-8864-N\nQuantity: 48 units\nUnit Price: $286.33\nAmount: $13743,84\n33. Testing Equipment\nProduct Code: PRD-8715-Y\nQuantity: 21 units\nUnit Price: $130.93\nAmount: $2749.53\n34, Testing Equipment\nProduct Code: PRD-8281-1\nQuantity: 91 units\nUnit Price: $145.64\nAmount: $13253.24\n35. industrial Controls\nProduct Code: PRD-7836-1\nQuantity: 58 units\nUnit Price: $118.54\nAmount: $6875.32\n36. Industrial Controls\nProduct Code: PRD-6303-R\nQuantity: 60 units\n\nUnit Price: $854.82\nAmount: $51289,20\n37, Industrial Controls\nProduct Code: PRD-3933-A\nQuantity: 10 units\nUnit Price: $577.64\nAmount: $5776.40\n38. Circuit Boards\nProduct Code: PRD-8621-W\nQuantity: 32 units\nUnit Price: $190.74\nAmount: $6103.68\n39, Electronic Components\nProduct Code: PRD-7202-1\nQuantity: 73 units\nUnit Price: $172.77\nAmount: $12612.21\n40. Power Supplies\nProduct Code: PRD-3558-H\nQuantity: 17 units\nUnit Price: $236.79\nAmount; $4025.43\n41. Power Supplies\nProduct Code: PRD-9287-0\nQuantity: 33 units\nUnit Price: $784.54\nAmount: $25889.82\n42. Electronic Components\nProduct Code: PRD-7415-A\nQuantity: 25 units\nUnit Price: $857.03\nAmount: $21425.75\n\n43. Testing Equipment\nProduct Code: PRD-8662-R\nQuantity: 21 units\nUnit Price: $579.62\nAmount: $12172.02\n44, Power Supplies\nProduct Code: PRD-2303-X\nQuantity: 96 units\nUnit Price: $384.89\nAmount: $36949.44\n45. Electronic Components\nProduct Code: PRD-3325-T\nQuantity: 27 units\nUnit Price: $159.92\nAmount: $4317.84\nSubtotal: $885027.92\nVAT (20%): $177005.58\nTotal Amount: $1062033.50\nPayment Terms:\nPayment due within 30 days\nPlease include invoice number in payment reference\nBank Details: [BAN: GB29 NWBK 6016 1331 9268 19\nSWIFT: NWBKGB2L\n\n",
+        "text": "GLOBAL TECH SOLUTIONS LTD.\n123 Innovation Street\nTech City, TC 54321\nUnited Kingdom\nVAT: GB123456789\n\nINVOICE NUMBER: INV-62340\nDATE: 09/02/2025\nPO NUMBER: PO-135298\n\nBILL TO:\nTurkish Electronics Corporation\nTeknoloji Mahallesi\nDigitat Plaza No:45\n34000 Istanbul, Turkey\nVAT: TR987654321\n\nINVOICE DETAILS:\n\n1. Semiconductor Parts\nProduct Code: PRD-7338-U\nQuantity: 18 units\nUnit Price: $18.08\nAmount: $325.44\n\n2. Industrial Controls\nProduct Code: PRD-2918-Q\nQuantity: 25 units\nUnit Price: $456.78\nAmount: $11419,50\n\n3. Industrial Controls\nProduct Code: PRD-3013-P\nQuantity: 56 units\nUnit Price: $817.91\nAmount: $45802.96\n4, Industrial Controls\nProduct Code: PRD-6726-P\nQuantity: 42 units\nUnit Price: $52.86\nAmount: $2220.12\n\n5S. Semiconductor Parts\nProduct Code: PRD-8618-V\nQuantity: 65 units\nUnit Price: $175.38\nAmount: $11399,70\n\n6. Electronic Components\nProduct Code: PRD-7378-Y\nQuantity: 18 units\nUnit Price: $121.70\nAmount: $2190.60\n\n7, Electronic Components\nProduct Code: PRD-8373-N\nQuantity: 19 units\nUnit Price: $902.24\nAmount: $17142.56\n\n8. Circuit Boards\nProduct Code: PRD-5464-H\nQuantity: 4 units\nUnit Price: $860.40\nAmount: $3441.60\n\n9, Circuit Boards\nProduct Code: PRD-1497-Y\nQuantity: 95 units\nUnit Price: $956.79\nAmount: $90895.05\n\n10. Semiconductor Parts\nProduct Code: PRD-8247-1\nQuantity: 20 units\nUnit Price: $319.72\nAmount: $6394.40\n\n11, Testing Equipment\nProduct Code: PRD-7611-A\nQuantity: 8 units\nUnit Price: $743.48\nAmount: $5947.84\n\n12. Industrial Controjs\nProduct Code: PRD-9400-A\nQuantity: 93 units\nUnit Price: $38.06\nAmount: $3539.58\n\n13. Testing Equipment\nProduct Code: PRD-2020-E\nQuantity: 47 units\nUnit Price: $17.71\nAmount: $832.37\n\n14. Industrial Controls\nProduct Code: PRD-9365-1\nQuantity: 43 units\nUnit Price: $808.81\nAmount: $34778.83\n\n15. Circuit Boards\nProduct Code: PRD-1141-G\nQuantity: 28 units\nUnit Price: $178.71\nAmount: $5003.88\n\n16. Industrial Controls\nProduct Code: PRD-8328-H\nQuantity: 68 units\nUnit Price: $673.08\nAmount: $45769.44\n17. Circuit Boards\nProduct Code: PRD-1824-F\nQuantity: 84 units\nUnit Price: $287.45\nAmount: $24145.80\n\n18. Electronic Components\nProduct Code: PRD-4863-U\nQuantity: 65 units\nUnit Price: $561.96\nAmount: $36527,40\n\n19, Electronic Components\nProduct Code: PRD-8536-K\nQuantity: 24 units\nUnit Price: $833.55\nAmount: $20005.20\n\n20. Testing Equipment\nProduct Code: PRD-1324-T\nQuantity: 19 units\nUnit Price: $765.07\nAmount: $14536.33\n\n21. Semiconductor Parts\nProduct Code: PRD-6072-N\nQuantity: 7 units\nUnit Price: $357.55\nAmount: $2502.85\n\n22, Industrial Controls\nProduct Code: PRD-6566-X\nQuantity: 25 units\nUnit Price: $25.00\nAmount: $625.00\n\n23. Semiconductor Parts\nProduct Code: PRD-4120-C\nQuantity: 90 units\nUnit Price: $26.81\nAmount: $2412.90\n24, Semiconductor Parts\nProduct Code: PRID-5444-V\nQuantity; 48 units\nUnit Price: $602.36\nAmount: $28913.28\n25. Industrial Controls\nProduct Code: PRD-9603-E\nQuantity: 36 units\nUnit Price: $884.13\nAmount: $31828.68\n26. Power Supplies\nProduct Code: PRD-8637-M\nQuantity: 38 units\nUnit Price: $746.04\nAmount: $28349.52\n27, Semiconductor Parts\nProduct Code: PRI-9138-S\nQuantity: 86 units\nUnit Price: $998.83\nAmount; $85899.38\n28. Power Supplies\nProduct Code: PRD-8909-1\nQuantity: 23 units\nUnit Price: $625.72\nAmount: $14391.56\n29. Industrial Controls\nProduct Code: PRD-4919-L\nQuantity: 92 units\nUnit Price: $295.58\nAmount: $27193.36\n30. Industrial Controls\nProduct Code: PRD-5819-G\nQuantity: 92 units\nUnit Price: $388.45\nAmount: $35737.40\n\n31. Testing Equipment\nProduct Code: PRD-7893-N\nQuantity: 39 units\nUnit Price: $709.53\nAmount: $27671.67\n\n32. Electronic Components\nProduct Code: PRD-8864-N\nQuantity: 48 units\nUnit Price: $286.33\nAmount: $13743,84\n\n33. Testing Equipment\nProduct Code: PRD-8715-Y\nQuantity: 21 units\nUnit Price: $130.93\nAmount: $2749.53\n\n34, Testing Equipment\nProduct Code: PRD-8281-1\nQuantity: 91 units\nUnit Price: $145.64\nAmount: $13253.24\n\n35. industrial Controls\nProduct Code: PRD-7836-1\nQuantity: 58 units\nUnit Price: $118.54\nAmount: $6875.32\n\n36. Industrial Controls\nProduct Code: PRD-6303-R\nQuantity: 60 units\nUnit Price: $854.82\nAmount: $51289,20\n\n37, Industrial Controls\nProduct Code: PRD-3933-A\nQuantity: 10 units\nUnit Price: $577.64\nAmount: $5776.40\n\n38. Circuit Boards\nProduct Code: PRD-8621-W\nQuantity: 32 units\nUnit Price: $190.74\nAmount: $6103.68\n\n39, Electronic Components\nProduct Code: PRD-7202-1\nQuantity: 73 units\nUnit Price: $172.77\nAmount: $12612.21\n\n40. Power Supplies\nProduct Code: PRD-3558-H\nQuantity: 17 units\nUnit Price: $236.79\nAmount; $4025.43\n\n41. Power Supplies\nProduct Code: PRD-9287-0\nQuantity: 33 units\nUnit Price: $784.54\nAmount: $25889.82\n\n42. Electronic Components\nProduct Code: PRD-7415-A\nQuantity: 25 units\nUnit Price: $857.03\nAmount: $21425.75\n43. Testing Equipment\nProduct Code: PRD-8662-R\nQuantity: 21 units\nUnit Price: $579.62\nAmount: $12172.02\n\n44, Power Supplies\nProduct Code: PRD-2303-X\nQuantity: 96 units\nUnit Price: $384.89\nAmount: $36949.44\n\n45. Electronic Components\nProduct Code: PRD-3325-T\nQuantity: 27 units\nUnit Price: $159.92\nAmount: $4317.84\n\nSubtotal: $885027.92\nVAT (20%): $177005.58\nTotal Amount: $1062033.50\n\nPayment Terms:\nPayment due within 30 days\nPlease include invoice number in payment reference\nBank Details: [BAN: GB29 NWBK 6016 1331 9268 19\nSWIFT: NWBKGB2L\n",
         "pages": [
             {
                 "page_number": 1,
-                "text": "GLOBAL TECH SOLUTIONS LTD.\n123 Innovation Street\nTech City, TC 54321\nUnited Kingdom\nVAT: GB123456789\nINVOICE NUMBER: INV-62340\nDATE: 09/02/2025\nPO NUMBER: PO-135298\nBILL TO:\nTurkish Electronics Corporation\nTeknoloji Mahallesi\nDigitat Plaza No:45\n34000 Istanbul, Turkey\nVAT: TR987654321\nINVOICE DETAILS:\n1. Semiconductor Parts\nProduct Code: PRD-7338-U\nQuantity: 18 units\nUnit Price: $18.08\nAmount: $325.44\n2. Industrial Controls\nProduct Code: PRD-2918-Q\nQuantity: 25 units\nUnit Price: $456.78\nAmount: $11419,50\n3. Industrial Controls\nProduct Code: PRD-3013-P\nQuantity: 56 units\nUnit Price: $817.91\nAmount: $45802.96\n",
+                "text": "GLOBAL TECH SOLUTIONS LTD.\n123 Innovation Street\nTech City, TC 54321\nUnited Kingdom\nVAT: GB123456789\n\nINVOICE NUMBER: INV-62340\nDATE: 09/02/2025\nPO NUMBER: PO-135298\n\nBILL TO:\nTurkish Electronics Corporation\nTeknoloji Mahallesi\nDigitat Plaza No:45\n34000 Istanbul, Turkey\nVAT: TR987654321\n\nINVOICE DETAILS:\n\n1. Semiconductor Parts\nProduct Code: PRD-7338-U\nQuantity: 18 units\nUnit Price: $18.08\nAmount: $325.44\n\n2. Industrial Controls\nProduct Code: PRD-2918-Q\nQuantity: 25 units\nUnit Price: $456.78\nAmount: $11419,50\n\n3. Industrial Controls\nProduct Code: PRD-3013-P\nQuantity: 56 units\nUnit Price: $817.91\nAmount: $45802.96",
+                "tables": [
+                    [
+                        "GLOBAL TECH SOLUTIONS LTD.",
+                        "123 Innovation Street",
+                        "Tech City, TC 54321",
+                        "United Kingdom",
+                        "VAT: GB123456789"
+                    ],
+                    [
+                        "INVOICE NUMBER: INV-62340",
+                        "DATE: 09/02/2025",
+                        "PO NUMBER: PO-135298"
+                    ],
+                    [
+                        "BILL TO:",
+                        "Turkish Electronics Corporation",
+                        "Teknoloji Mahallesi",
+                        "Digitat Plaza No:45",
+                        "34000 Istanbul, Turkey",
+                        "VAT: TR987654321"
+                    ],
+                    [
+                        "INVOICE DETAILS:"
+                    ],
+                    [
+                        "1. Semiconductor Parts",
+                        "Product Code: PRD-7338-U",
+                        "Quantity: 18 units",
+                        "Unit Price: $18.08",
+                        "Amount: $325.44"
+                    ],
+                    [
+                        "2. Industrial Controls",
+                        "Product Code: PRD-2918-Q",
+                        "Quantity: 25 units",
+                        "Unit Price: $456.78",
+                        "Amount: $11419,50"
+                    ],
+                    [
+                        "3. Industrial Controls",
+                        "Product Code: PRD-3013-P",
+                        "Quantity: 56 units",
+                        "Unit Price: $817.91",
+                        "Amount: $45802.96"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 2,
-                "text": "4, Industrial Controls\nProduct Code: PRD-6726-P\nQuantity: 42 units\nUnit Price: $52.86\nAmount: $2220.12\n5S. Semiconductor Parts\nProduct Code: PRD-8618-V\nQuantity: 65 units\nUnit Price: $175.38\nAmount: $11399,70\n6. Electronic Components\nProduct Code: PRD-7378-Y\nQuantity: 18 units\nUnit Price: $121.70\nAmount: $2190.60\n7, Electronic Components\nProduct Code: PRD-8373-N\nQuantity: 19 units\nUnit Price: $902.24\nAmount: $17142.56\n8. Circuit Boards\nProduct Code: PRD-5464-H\nQuantity: 4 units\nUnit Price: $860.40\nAmount: $3441.60\n9, Circuit Boards\nProduct Code: PRD-1497-Y\nQuantity: 95 units\nUnit Price: $956.79\nAmount: $90895.05\n10. Semiconductor Parts\nProduct Code: PRD-8247-1\nQuantity: 20 units\n",
+                "text": "4, Industrial Controls\nProduct Code: PRD-6726-P\nQuantity: 42 units\nUnit Price: $52.86\nAmount: $2220.12\n\n5S. Semiconductor Parts\nProduct Code: PRD-8618-V\nQuantity: 65 units\nUnit Price: $175.38\nAmount: $11399,70\n\n6. Electronic Components\nProduct Code: PRD-7378-Y\nQuantity: 18 units\nUnit Price: $121.70\nAmount: $2190.60\n\n7, Electronic Components\nProduct Code: PRD-8373-N\nQuantity: 19 units\nUnit Price: $902.24\nAmount: $17142.56\n\n8. Circuit Boards\nProduct Code: PRD-5464-H\nQuantity: 4 units\nUnit Price: $860.40\nAmount: $3441.60\n\n9, Circuit Boards\nProduct Code: PRD-1497-Y\nQuantity: 95 units\nUnit Price: $956.79\nAmount: $90895.05\n\n10. Semiconductor Parts\nProduct Code: PRD-8247-1\nQuantity: 20 units",
+                "tables": [
+                    [
+                        "4, Industrial Controls",
+                        "Product Code: PRD-6726-P",
+                        "Quantity: 42 units",
+                        "Unit Price: $52.86",
+                        "Amount: $2220.12"
+                    ],
+                    [
+                        "5S. Semiconductor Parts",
+                        "Product Code: PRD-8618-V",
+                        "Quantity: 65 units",
+                        "Unit Price: $175.38",
+                        "Amount: $11399,70"
+                    ],
+                    [
+                        "6. Electronic Components",
+                        "Product Code: PRD-7378-Y",
+                        "Quantity: 18 units",
+                        "Unit Price: $121.70",
+                        "Amount: $2190.60"
+                    ],
+                    [
+                        "7, Electronic Components",
+                        "Product Code: PRD-8373-N",
+                        "Quantity: 19 units",
+                        "Unit Price: $902.24",
+                        "Amount: $17142.56"
+                    ],
+                    [
+                        "8. Circuit Boards",
+                        "Product Code: PRD-5464-H",
+                        "Quantity: 4 units",
+                        "Unit Price: $860.40",
+                        "Amount: $3441.60"
+                    ],
+                    [
+                        "9, Circuit Boards",
+                        "Product Code: PRD-1497-Y",
+                        "Quantity: 95 units",
+                        "Unit Price: $956.79",
+                        "Amount: $90895.05"
+                    ],
+                    [
+                        "10. Semiconductor Parts",
+                        "Product Code: PRD-8247-1",
+                        "Quantity: 20 units"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 3,
-                "text": "Unit Price: $319.72\nAmount: $6394.40\n11, Testing Equipment\nProduct Code: PRD-7611-A\nQuantity: 8 units\nUnit Price: $743.48\nAmount: $5947.84\n12. Industrial Controjs\nProduct Code: PRD-9400-A\nQuantity: 93 units\nUnit Price: $38.06\nAmount: $3539.58\n13. Testing Equipment\nProduct Code: PRD-2020-E\nQuantity: 47 units\nUnit Price: $17.71\nAmount: $832.37\n14. Industrial Controls\nProduct Code: PRD-9365-1\nQuantity: 43 units\nUnit Price: $808.81\nAmount: $34778.83\n15. Circuit Boards\nProduct Code: PRD-1141-G\nQuantity: 28 units\nUnit Price: $178.71\nAmount: $5003.88\n16. Industrial Controls\nProduct Code: PRD-8328-H\nQuantity: 68 units\nUnit Price: $673.08\nAmount: $45769.44\n",
+                "text": "Unit Price: $319.72\nAmount: $6394.40\n\n11, Testing Equipment\nProduct Code: PRD-7611-A\nQuantity: 8 units\nUnit Price: $743.48\nAmount: $5947.84\n\n12. Industrial Controjs\nProduct Code: PRD-9400-A\nQuantity: 93 units\nUnit Price: $38.06\nAmount: $3539.58\n\n13. Testing Equipment\nProduct Code: PRD-2020-E\nQuantity: 47 units\nUnit Price: $17.71\nAmount: $832.37\n\n14. Industrial Controls\nProduct Code: PRD-9365-1\nQuantity: 43 units\nUnit Price: $808.81\nAmount: $34778.83\n\n15. Circuit Boards\nProduct Code: PRD-1141-G\nQuantity: 28 units\nUnit Price: $178.71\nAmount: $5003.88\n\n16. Industrial Controls\nProduct Code: PRD-8328-H\nQuantity: 68 units\nUnit Price: $673.08\nAmount: $45769.44",
+                "tables": [
+                    [
+                        "Unit Price: $319.72",
+                        "Amount: $6394.40"
+                    ],
+                    [
+                        "11, Testing Equipment",
+                        "Product Code: PRD-7611-A",
+                        "Quantity: 8 units",
+                        "Unit Price: $743.48",
+                        "Amount: $5947.84"
+                    ],
+                    [
+                        "12. Industrial Controjs",
+                        "Product Code: PRD-9400-A",
+                        "Quantity: 93 units",
+                        "Unit Price: $38.06",
+                        "Amount: $3539.58"
+                    ],
+                    [
+                        "13. Testing Equipment",
+                        "Product Code: PRD-2020-E",
+                        "Quantity: 47 units",
+                        "Unit Price: $17.71",
+                        "Amount: $832.37"
+                    ],
+                    [
+                        "14. Industrial Controls",
+                        "Product Code: PRD-9365-1",
+                        "Quantity: 43 units",
+                        "Unit Price: $808.81",
+                        "Amount: $34778.83"
+                    ],
+                    [
+                        "15. Circuit Boards",
+                        "Product Code: PRD-1141-G",
+                        "Quantity: 28 units",
+                        "Unit Price: $178.71",
+                        "Amount: $5003.88"
+                    ],
+                    [
+                        "16. Industrial Controls",
+                        "Product Code: PRD-8328-H",
+                        "Quantity: 68 units",
+                        "Unit Price: $673.08",
+                        "Amount: $45769.44"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 4,
-                "text": "17. Circuit Boards\nProduct Code: PRD-1824-F\nQuantity: 84 units\nUnit Price: $287.45\nAmount: $24145.80\n18. Electronic Components\nProduct Code: PRD-4863-U\nQuantity: 65 units\nUnit Price: $561.96\nAmount: $36527,40\n19, Electronic Components\nProduct Code: PRD-8536-K\nQuantity: 24 units\nUnit Price: $833.55\nAmount: $20005.20\n20. Testing Equipment\nProduct Code: PRD-1324-T\nQuantity: 19 units\nUnit Price: $765.07\nAmount: $14536.33\n21. Semiconductor Parts\nProduct Code: PRD-6072-N\nQuantity: 7 units\nUnit Price: $357.55\nAmount: $2502.85\n22, Industrial Controls\nProduct Code: PRD-6566-X\nQuantity: 25 units\nUnit Price: $25.00\nAmount: $625.00\n23. Semiconductor Parts\nProduct Code: PRD-4120-C\nQuantity: 90 units\n",
+                "text": "17. Circuit Boards\nProduct Code: PRD-1824-F\nQuantity: 84 units\nUnit Price: $287.45\nAmount: $24145.80\n\n18. Electronic Components\nProduct Code: PRD-4863-U\nQuantity: 65 units\nUnit Price: $561.96\nAmount: $36527,40\n\n19, Electronic Components\nProduct Code: PRD-8536-K\nQuantity: 24 units\nUnit Price: $833.55\nAmount: $20005.20\n\n20. Testing Equipment\nProduct Code: PRD-1324-T\nQuantity: 19 units\nUnit Price: $765.07\nAmount: $14536.33\n\n21. Semiconductor Parts\nProduct Code: PRD-6072-N\nQuantity: 7 units\nUnit Price: $357.55\nAmount: $2502.85\n\n22, Industrial Controls\nProduct Code: PRD-6566-X\nQuantity: 25 units\nUnit Price: $25.00\nAmount: $625.00\n\n23. Semiconductor Parts\nProduct Code: PRD-4120-C\nQuantity: 90 units",
+                "tables": [
+                    [
+                        "17. Circuit Boards",
+                        "Product Code: PRD-1824-F",
+                        "Quantity: 84 units",
+                        "Unit Price: $287.45",
+                        "Amount: $24145.80"
+                    ],
+                    [
+                        "18. Electronic Components",
+                        "Product Code: PRD-4863-U",
+                        "Quantity: 65 units",
+                        "Unit Price: $561.96",
+                        "Amount: $36527,40"
+                    ],
+                    [
+                        "19, Electronic Components",
+                        "Product Code: PRD-8536-K",
+                        "Quantity: 24 units",
+                        "Unit Price: $833.55",
+                        "Amount: $20005.20"
+                    ],
+                    [
+                        "20. Testing Equipment",
+                        "Product Code: PRD-1324-T",
+                        "Quantity: 19 units",
+                        "Unit Price: $765.07",
+                        "Amount: $14536.33"
+                    ],
+                    [
+                        "21. Semiconductor Parts",
+                        "Product Code: PRD-6072-N",
+                        "Quantity: 7 units",
+                        "Unit Price: $357.55",
+                        "Amount: $2502.85"
+                    ],
+                    [
+                        "22, Industrial Controls",
+                        "Product Code: PRD-6566-X",
+                        "Quantity: 25 units",
+                        "Unit Price: $25.00",
+                        "Amount: $625.00"
+                    ],
+                    [
+                        "23. Semiconductor Parts",
+                        "Product Code: PRD-4120-C",
+                        "Quantity: 90 units"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 5,
-                "text": "Unit Price: $26.81\nAmount: $2412.90\n\n24, Semiconductor Parts\nProduct Code: PRID-5444-V\nQuantity; 48 units\nUnit Price: $602.36\nAmount: $28913.28\n\n25. Industrial Controls\nProduct Code: PRD-9603-E\nQuantity: 36 units\nUnit Price: $884.13\nAmount: $31828.68\n26. Power Supplies\nProduct Code: PRD-8637-M\nQuantity: 38 units\nUnit Price: $746.04\nAmount: $28349.52\n27, Semiconductor Parts\nProduct Code: PRI-9138-S\nQuantity: 86 units\nUnit Price: $998.83\nAmount; $85899.38\n\n28. Power Supplies\nProduct Code: PRD-8909-1\nQuantity: 23 units\nUnit Price: $625.72\nAmount: $14391.56\n29. Industrial Controls\nProduct Code: PRD-4919-L\nQuantity: 92 units\nUnit Price: $295.58\nAmount: $27193.36\n",
+                "text": "Unit Price: $26.81\nAmount: $2412.90\n24, Semiconductor Parts\nProduct Code: PRID-5444-V\nQuantity; 48 units\nUnit Price: $602.36\nAmount: $28913.28\n25. Industrial Controls\nProduct Code: PRD-9603-E\nQuantity: 36 units\nUnit Price: $884.13\nAmount: $31828.68\n26. Power Supplies\nProduct Code: PRD-8637-M\nQuantity: 38 units\nUnit Price: $746.04\nAmount: $28349.52\n27, Semiconductor Parts\nProduct Code: PRI-9138-S\nQuantity: 86 units\nUnit Price: $998.83\nAmount; $85899.38\n28. Power Supplies\nProduct Code: PRD-8909-1\nQuantity: 23 units\nUnit Price: $625.72\nAmount: $14391.56\n29. Industrial Controls\nProduct Code: PRD-4919-L\nQuantity: 92 units\nUnit Price: $295.58\nAmount: $27193.36",
+                "tables": [
+                    [
+                        "Unit Price: $26.81",
+                        "Amount: $2412.90",
+                        "24, Semiconductor Parts",
+                        "Product Code: PRID-5444-V",
+                        "Quantity; 48 units",
+                        "Unit Price: $602.36",
+                        "Amount: $28913.28",
+                        "25. Industrial Controls",
+                        "Product Code: PRD-9603-E",
+                        "Quantity: 36 units",
+                        "Unit Price: $884.13",
+                        "Amount: $31828.68",
+                        "26. Power Supplies",
+                        "Product Code: PRD-8637-M",
+                        "Quantity: 38 units",
+                        "Unit Price: $746.04",
+                        "Amount: $28349.52",
+                        "27, Semiconductor Parts",
+                        "Product Code: PRI-9138-S",
+                        "Quantity: 86 units",
+                        "Unit Price: $998.83",
+                        "Amount; $85899.38",
+                        "28. Power Supplies",
+                        "Product Code: PRD-8909-1",
+                        "Quantity: 23 units",
+                        "Unit Price: $625.72",
+                        "Amount: $14391.56",
+                        "29. Industrial Controls",
+                        "Product Code: PRD-4919-L",
+                        "Quantity: 92 units",
+                        "Unit Price: $295.58",
+                        "Amount: $27193.36"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 6,
-                "text": "30. Industrial Controls\nProduct Code: PRD-5819-G\nQuantity: 92 units\nUnit Price: $388.45\nAmount: $35737.40\n31. Testing Equipment\nProduct Code: PRD-7893-N\nQuantity: 39 units\nUnit Price: $709.53\nAmount: $27671.67\n32. Electronic Components\nProduct Code: PRD-8864-N\nQuantity: 48 units\nUnit Price: $286.33\nAmount: $13743,84\n33. Testing Equipment\nProduct Code: PRD-8715-Y\nQuantity: 21 units\nUnit Price: $130.93\nAmount: $2749.53\n34, Testing Equipment\nProduct Code: PRD-8281-1\nQuantity: 91 units\nUnit Price: $145.64\nAmount: $13253.24\n35. industrial Controls\nProduct Code: PRD-7836-1\nQuantity: 58 units\nUnit Price: $118.54\nAmount: $6875.32\n36. Industrial Controls\nProduct Code: PRD-6303-R\nQuantity: 60 units\n",
+                "text": "30. Industrial Controls\nProduct Code: PRD-5819-G\nQuantity: 92 units\nUnit Price: $388.45\nAmount: $35737.40\n\n31. Testing Equipment\nProduct Code: PRD-7893-N\nQuantity: 39 units\nUnit Price: $709.53\nAmount: $27671.67\n\n32. Electronic Components\nProduct Code: PRD-8864-N\nQuantity: 48 units\nUnit Price: $286.33\nAmount: $13743,84\n\n33. Testing Equipment\nProduct Code: PRD-8715-Y\nQuantity: 21 units\nUnit Price: $130.93\nAmount: $2749.53\n\n34, Testing Equipment\nProduct Code: PRD-8281-1\nQuantity: 91 units\nUnit Price: $145.64\nAmount: $13253.24\n\n35. industrial Controls\nProduct Code: PRD-7836-1\nQuantity: 58 units\nUnit Price: $118.54\nAmount: $6875.32\n\n36. Industrial Controls\nProduct Code: PRD-6303-R\nQuantity: 60 units",
+                "tables": [
+                    [
+                        "30. Industrial Controls",
+                        "Product Code: PRD-5819-G",
+                        "Quantity: 92 units",
+                        "Unit Price: $388.45",
+                        "Amount: $35737.40"
+                    ],
+                    [
+                        "31. Testing Equipment",
+                        "Product Code: PRD-7893-N",
+                        "Quantity: 39 units",
+                        "Unit Price: $709.53",
+                        "Amount: $27671.67"
+                    ],
+                    [
+                        "32. Electronic Components",
+                        "Product Code: PRD-8864-N",
+                        "Quantity: 48 units",
+                        "Unit Price: $286.33",
+                        "Amount: $13743,84"
+                    ],
+                    [
+                        "33. Testing Equipment",
+                        "Product Code: PRD-8715-Y",
+                        "Quantity: 21 units",
+                        "Unit Price: $130.93",
+                        "Amount: $2749.53"
+                    ],
+                    [
+                        "34, Testing Equipment",
+                        "Product Code: PRD-8281-1",
+                        "Quantity: 91 units",
+                        "Unit Price: $145.64",
+                        "Amount: $13253.24"
+                    ],
+                    [
+                        "35. industrial Controls",
+                        "Product Code: PRD-7836-1",
+                        "Quantity: 58 units",
+                        "Unit Price: $118.54",
+                        "Amount: $6875.32"
+                    ],
+                    [
+                        "36. Industrial Controls",
+                        "Product Code: PRD-6303-R",
+                        "Quantity: 60 units"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 7,
-                "text": "Unit Price: $854.82\nAmount: $51289,20\n37, Industrial Controls\nProduct Code: PRD-3933-A\nQuantity: 10 units\nUnit Price: $577.64\nAmount: $5776.40\n38. Circuit Boards\nProduct Code: PRD-8621-W\nQuantity: 32 units\nUnit Price: $190.74\nAmount: $6103.68\n39, Electronic Components\nProduct Code: PRD-7202-1\nQuantity: 73 units\nUnit Price: $172.77\nAmount: $12612.21\n40. Power Supplies\nProduct Code: PRD-3558-H\nQuantity: 17 units\nUnit Price: $236.79\nAmount; $4025.43\n41. Power Supplies\nProduct Code: PRD-9287-0\nQuantity: 33 units\nUnit Price: $784.54\nAmount: $25889.82\n42. Electronic Components\nProduct Code: PRD-7415-A\nQuantity: 25 units\nUnit Price: $857.03\nAmount: $21425.75\n",
+                "text": "Unit Price: $854.82\nAmount: $51289,20\n\n37, Industrial Controls\nProduct Code: PRD-3933-A\nQuantity: 10 units\nUnit Price: $577.64\nAmount: $5776.40\n\n38. Circuit Boards\nProduct Code: PRD-8621-W\nQuantity: 32 units\nUnit Price: $190.74\nAmount: $6103.68\n\n39, Electronic Components\nProduct Code: PRD-7202-1\nQuantity: 73 units\nUnit Price: $172.77\nAmount: $12612.21\n\n40. Power Supplies\nProduct Code: PRD-3558-H\nQuantity: 17 units\nUnit Price: $236.79\nAmount; $4025.43\n\n41. Power Supplies\nProduct Code: PRD-9287-0\nQuantity: 33 units\nUnit Price: $784.54\nAmount: $25889.82\n\n42. Electronic Components\nProduct Code: PRD-7415-A\nQuantity: 25 units\nUnit Price: $857.03\nAmount: $21425.75",
+                "tables": [
+                    [
+                        "Unit Price: $854.82",
+                        "Amount: $51289,20"
+                    ],
+                    [
+                        "37, Industrial Controls",
+                        "Product Code: PRD-3933-A",
+                        "Quantity: 10 units",
+                        "Unit Price: $577.64",
+                        "Amount: $5776.40"
+                    ],
+                    [
+                        "38. Circuit Boards",
+                        "Product Code: PRD-8621-W",
+                        "Quantity: 32 units",
+                        "Unit Price: $190.74",
+                        "Amount: $6103.68"
+                    ],
+                    [
+                        "39, Electronic Components",
+                        "Product Code: PRD-7202-1",
+                        "Quantity: 73 units",
+                        "Unit Price: $172.77",
+                        "Amount: $12612.21"
+                    ],
+                    [
+                        "40. Power Supplies",
+                        "Product Code: PRD-3558-H",
+                        "Quantity: 17 units",
+                        "Unit Price: $236.79",
+                        "Amount; $4025.43"
+                    ],
+                    [
+                        "41. Power Supplies",
+                        "Product Code: PRD-9287-0",
+                        "Quantity: 33 units",
+                        "Unit Price: $784.54",
+                        "Amount: $25889.82"
+                    ],
+                    [
+                        "42. Electronic Components",
+                        "Product Code: PRD-7415-A",
+                        "Quantity: 25 units",
+                        "Unit Price: $857.03",
+                        "Amount: $21425.75"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             },
             {
                 "page_number": 8,
-                "text": "43. Testing Equipment\nProduct Code: PRD-8662-R\nQuantity: 21 units\nUnit Price: $579.62\nAmount: $12172.02\n44, Power Supplies\nProduct Code: PRD-2303-X\nQuantity: 96 units\nUnit Price: $384.89\nAmount: $36949.44\n45. Electronic Components\nProduct Code: PRD-3325-T\nQuantity: 27 units\nUnit Price: $159.92\nAmount: $4317.84\nSubtotal: $885027.92\nVAT (20%): $177005.58\nTotal Amount: $1062033.50\nPayment Terms:\nPayment due within 30 days\nPlease include invoice number in payment reference\nBank Details: [BAN: GB29 NWBK 6016 1331 9268 19\nSWIFT: NWBKGB2L\n",
+                "text": "43. Testing Equipment\nProduct Code: PRD-8662-R\nQuantity: 21 units\nUnit Price: $579.62\nAmount: $12172.02\n\n44, Power Supplies\nProduct Code: PRD-2303-X\nQuantity: 96 units\nUnit Price: $384.89\nAmount: $36949.44\n\n45. Electronic Components\nProduct Code: PRD-3325-T\nQuantity: 27 units\nUnit Price: $159.92\nAmount: $4317.84\n\nSubtotal: $885027.92\nVAT (20%): $177005.58\nTotal Amount: $1062033.50\n\nPayment Terms:\nPayment due within 30 days\nPlease include invoice number in payment reference\nBank Details: [BAN: GB29 NWBK 6016 1331 9268 19\nSWIFT: NWBKGB2L",
+                "tables": [
+                    [
+                        "43. Testing Equipment",
+                        "Product Code: PRD-8662-R",
+                        "Quantity: 21 units",
+                        "Unit Price: $579.62",
+                        "Amount: $12172.02"
+                    ],
+                    [
+                        "44, Power Supplies",
+                        "Product Code: PRD-2303-X",
+                        "Quantity: 96 units",
+                        "Unit Price: $384.89",
+                        "Amount: $36949.44"
+                    ],
+                    [
+                        "45. Electronic Components",
+                        "Product Code: PRD-3325-T",
+                        "Quantity: 27 units",
+                        "Unit Price: $159.92",
+                        "Amount: $4317.84"
+                    ],
+                    [
+                        "Subtotal: $885027.92",
+                        "VAT (20%): $177005.58",
+                        "Total Amount: $1062033.50"
+                    ],
+                    [
+                        "Payment Terms:",
+                        "Payment due within 30 days",
+                        "Please include invoice number in payment reference",
+                        "Bank Details: [BAN: GB29 NWBK 6016 1331 9268 19",
+                        "SWIFT: NWBKGB2L"
+                    ]
+                ],
                 "method": "ocr_tesseract"
             }
         ],

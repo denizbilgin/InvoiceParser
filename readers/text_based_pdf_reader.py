@@ -1,10 +1,9 @@
 from typing import Dict, Any
-
 import PyPDF2
 import pdfplumber
-
 from readers.pdf_type import PDFType
-from readers.reader import Reader
+from readers.abstracts.reader import Reader
+from utils import extract_tables_from_page_text
 
 
 class TextBasedPDFReader(Reader):
@@ -28,7 +27,7 @@ class TextBasedPDFReader(Reader):
 
             return {
                 "success": True,
-                'filename': self.file_path.split('\\')[1],
+                'filename': self.file_path,
                 "pdf_type": self.pdf_type.value,
                 "content": final_content,
             }
@@ -44,9 +43,12 @@ class TextBasedPDFReader(Reader):
 
                 for page_num, page in enumerate(pdf_reader.pages):
                     page_text = page.extract_text()
+                    tables = extract_tables_from_page_text(page_text)
+
                     pages_content.append({
                         "page_number": page_num + 1,
                         "text": page_text,
+                        "tables": tables,
                         "method": "pypdf2"
                     })
                     full_text += page_text + "\n"
@@ -76,7 +78,6 @@ class TextBasedPDFReader(Reader):
                         "page_number": page_num + 1,
                         "text": page_text,
                         "tables": tables,
-                        "has_tables": len(tables) > 0,
                         "method": "pdfplumber"
                     }
 
