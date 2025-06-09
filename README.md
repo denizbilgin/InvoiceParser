@@ -19,8 +19,9 @@ Deniz Bilgin - denizbilgin156@gmail.com
 
 ### Analyzers
 - Projenin bu aşaması için çok çeşitli araçlar denedim; ancak yapay zekânın gücü olmadan, aşırı esnek bir fatura gruplama sistemi yazmak oldukça zor bir iştir.
-- Bu nedenle, bir yapay zeka mühendisi olarak burada yapay zekânın gücünden faydalanmaya karar verdim.
-- Mülakatta LLM'leri (Large Language Model) veri güvenliği nedeniyle kullanmak istemediğinizden bahsetmiştiniz. Projenin bu aşamasında, bilgisayarıma indirip yerel olarak çalıştırdığım LLM'leri bu görev için kullandım.
+- Bu aşamada BERT modelini denedim; fakat sınırlı sayıda fatura örneği ile fine-tune ettiğim BERT modelinin başarısı oldukça kötüydü.
+- Bu nedenle, bir yapay zeka mühendisi olarak burada LLM'lerin gücünden faydalanmaya karar verdim.
+- Mülakatta LLM'leri veri güvenliği nedeniyle kullanmak istemediğinizden bahsetmiştiniz. Projenin bu aşamasında, bilgisayarıma indirip yerel olarak çalıştırdığım LLM'leri bu görev için kullandım.
 - Lokal ortamda çalışan LLM'ler herhangi bir yere veri göndermediği ve tamamen yazılımcının kontrolü altında olduğu için en güvenli yöntemdir.
 - Bu aşama için LLM seçerken şu modelleri test ettim:
   - DeepSeek r1:1.5B
@@ -36,6 +37,6 @@ Deniz Bilgin - denizbilgin156@gmail.com
 ## Kurulum
 - Projeyi kendi ortamınızda ayağa kaldırmak için, LLM’leri lokalinizde çalıştırabilmenizi sağlayan Ollama uygulamasını indirmeniz gerekiyor.
 - İndirdikten sonra `ollama pull mistral:7b-instruct` komutunu yazarak, benim son olarak kullanmaya karar kıldığım modeli indirebilirsiniz.
-- Her şey hazır! `main.py` dosyasını çalıştırarak, istediğiniz faturayı otomatik olarak analiz ve rapor eden yazılımı başlatabilirsiniz.
+- Son olarak `main.py` dosyasını çalıştırarak, istediğiniz faturayı otomatik olarak analiz ve rapor eden yazılımı başlatabilirsiniz.
 
 
