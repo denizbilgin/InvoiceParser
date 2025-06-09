@@ -1,0 +1,119 @@
+{
+    "supplier_details": {
+        "company_name": "GLOBAL TECH SOLUTIONS LTD.",
+        "address": "123 Innovation Street, Tech District, London, UK EC1A 1BB",
+        "tax_number": "GB123456789",
+        "tel": "+44 20 7123 4567",
+        "vat": null
+    },
+    "invoice_details": {
+        "invoice_number": "NV-43071",
+        "invoice_date": "20/02/2025",
+        "due_date": "22/03/2025",
+        "po_number": null,
+        "customer_id": null
+    },
+    "bill_to_details": {
+        "company_name": "Tech Innovations Inc.",
+        "address": "789 Silicon Avenue, San Francisco, CA 94105, USA",
+        "tax_id": "US987654321",
+        "vat": null
+    },
+    "line_items": [
+        {
+            "item_name": "Software Development Services - Frontend Development",
+            "quantity": 80,
+            "unit_price": 145,
+            "total_price": 11600,
+            "po_number": null
+        },
+        {
+            "item_name": "Backend API Integration",
+            "quantity": 120,
+            "unit_price": 165,
+            "total_price": 19800,
+            "po_number": null
+        },
+        {
+            "item_name": "Cloud Infrastructure Setup",
+            "quantity": 40,
+            "unit_price": 185,
+            "total_price": 7400,
+            "po_number": null
+        },
+        {
+            "item_name": "Security Audit and Implementation",
+            "quantity": 35,
+            "unit_price": 195,
+            "total_price": 6825,
+            "po_number": null
+        },
+        {
+            "item_name": "Project Management",
+            "quantity": 45,
+            "unit_price": 125,
+            "total_price": 5625,
+            "po_number": null
+        }
+    ],
+    "total_details": {
+        "subtotal": 51250,
+        "vat (20%)": 10250,
+        "total": 61500
+    },
+    "payment_terms": {
+        "payment_method": null,
+        "bank_details": "Barclays Bank",
+        "due_date": "22/03/2025",
+        "iban": "GB29 BARC 2000 0012 3456 78",
+        "swift_code": "BARCGB22"
+    },
+    "validation_report": {
+        "metadata": {
+            "filename": "20250221092842541.json",
+            "validation_timestamp": "2025-06-08T22:49:23.346357"
+        },
+        "summary": {
+            "price_accuracy_status": "PASS",
+            "po_detection_status": "PASS"
+        },
+        "price_validation": {
+            "accuracy_metrics": {
+                "line_item_accuracy": 100.0,
+                "total_calculation_accuracy": 100.0,
+                "overall_price_accuracy": 100.0,
+                "meets_requirement": true,
+                "threshold": 95.0
+            },
+            "line_item_issues": [],
+            "total_calculation_issues": {
+                "subtotal_correct": true,
+                "vat_correct": true,
+                "total_correct": true,
+                "issues": []
+            }
+        },
+        "po_validation": {
+            "detection_metrics": {
+                "po_accuracy": 100.0,
+                "meets_requirement": true,
+                "threshold": 90.0,
+                "scenario": "no_po_expected_none_detected",
+                "note": "No PO numbers expected (ground truth empty) and none detected - Perfect match",
+                "ground_truth_count": 0,
+                "detected_count": 0,
+                "false_detections": []
+            },
+            "presence_analysis": {
+                "po_number_status": "missing",
+                "missing_locations": 6,
+                "total_locations": 6,
+                "coverage_percent": 0.0,
+                "found_pos": {
+                    "invoice_level": null,
+                    "line_level": []
+                }
+            }
+        }
+    }
+}

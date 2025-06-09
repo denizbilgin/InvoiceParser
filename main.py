@@ -1,52 +1,60 @@
+from analyzers.invoice_analyzer import InvoiceAnalyzer
 from readers.reader_factory import ReaderFactory
-from readers.text_based_pdf_reader import TextBasedPDFReader
-from readers.scanned_pdf_reader import ScannedPDFReader
 from utils import *
-
+from validators.invoice_validator import InvoiceValidator
 
 if __name__ == '__main__':
     invoices_folder_path = './invoices'
     raw_ocr_outputs_folder_path = 'outputs/raw_ocr_outputs'
-    raw_ocr_outputs = []
+    analyzed_outputs_folder_path = 'outputs/analyzed_outputs'
+    final_outputs_path = 'outputs/final_outputs'
+
+    # Ground truth POs for validating invoices. I wrote these by looking at myself
+    ground_truth_pos = {
+        "20250221092842541.json": [],
+        "20250221125114588.json": ["PO-135298"],
+        "Invaoice_2.json": ["PO-526365", "PO-360206", "PO-620087", "PO-756014", "PO-842742", "PO-362820"]
+    }
 
     for filename in os.listdir(invoices_folder_path):
+        print(f'{filename} is processing!')
         if filename.endswith('.pdf'):
             file_path = os.path.join(invoices_folder_path, filename)
+
+            # Reader
+            print('READING')
             reader = ReaderFactory.create_reader(file_path)
             result = reader.read_content()
-            raw_ocr_outputs.append(result)
-            export_raw_ocr_outputs_as_json(result, filename, raw_ocr_outputs_folder_path)
 
+            # Exporting result of the first step of the case
+            export_outputs_as_json(result, filename, raw_ocr_outputs_folder_path)
 
+            text = result['content']['text']
 
-"""
-ADIMLAR:
+            # Analyzer
+            print('ANALYZING')
+            analyzer = InvoiceAnalyzer(seed=42)
+            result = analyzer.analyze_invoice(text)
 
-1. OCR Aşaması
-    Amaç: PDF'ten metni ve tabloyu doğru şekilde al.
-    - Hem serbest metin (adres, po vs.) hem de tablo ayıklanmalı.
-    - İlk olarak OCR çıktısını bir .txt olarak kaydet. Doğru okunduğuna emin ol.
+            is_valid, message = analyzer.validate_invoice_json(result)
+            if is_valid:
+                print("Success! JSON output:")
+                print(json.dumps(result, indent=2, ensure_ascii=False))
 
-2. PO Numarası Tespiti
-    Amaç: Serbest metin içinde PO’yu bul.
-    - Regex ve/veya ML teknikleri kullanabilirsin.
-    
-3. Ürün Kalemleri ve Tablo İşleme
-    Amaç: Fatura içindeki tabloyu doğru parse et.
-    - Veya OCR sonrası satır satır tabloyu parse et.
-    - Tablodaki her satır için miktar, birim fiyat, toplam ayıkla ve kontrol et.
+                # Exporting result of the second step of the case
+                export_outputs_as_json(result, filename, analyzed_outputs_folder_path)
 
-4. Tedarikçi Bilgisi Çıkarımı
-    - Fatura başındaki veya altındaki metinden
-        Firma adı
-        Vergi numarası (regex: \d{10})
-        Adres (NER veya heuristik ile)
+                # Validator
+                print('VALIDATING')
+                filename = filename.replace('.pdf', '.json')
+                validator = InvoiceValidator(result, ground_truth_pos[filename])
+                analyzed_json = validator.generate_report(filename)
+                print(analyzed_json)
 
-5. Veri Tutarlılık Kontrolü
-    - assert abs(item["quantity"] * item["unit_price"] - item["total_price"]) < tolerance
-    - PO numarası bulunmazsa rapora yaz.
-    - Tüm satırların toplamı, varsa "fatura toplamı" ile karşılaştırılır.
+                # Exporting result of the third step of the case
+                export_outputs_as_json(analyzed_json, filename, final_outputs_path)
+            else:
+                print(f"Validation error: {message}")
+                print("Raw output:", json.dumps(result, indent=2, ensure_ascii=False))
 
-6. JSON Oluşturma ve Raporlama
-7. Test & Değerlendirme
-"""
+            print('=' * 50)

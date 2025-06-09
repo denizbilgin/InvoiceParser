@@ -1,0 +1,529 @@
+{
+    "supplier_details": {
+        "company_name": "GLOBAL TECH SOLUTIONS LTD.",
+        "address": "Unit 7, Industrial Park, London, UK EC1A 1BB",
+        "tax_number": "GB123456789",
+        "tel": null,
+        "vat": "GB123456789"
+    },
+    "invoice_details": {
+        "invoice_number": "INV-53470",
+        "invoice_date": "20/02/2025",
+        "due_date": "20/02/2025",
+        "po_number": null,
+        "customer_id": "CUST-5503"
+    },
+    "bill_to_details": {
+        "company_name": "Tech Innovations Inc.",
+        "address": "123 Business Avenue, New York, NY 10001",
+        "tax_id": "US987654321",
+        "vat": null
+    },
+    "line_items": [
+        {
+            "item_name": "PRD-5976 Power Supply",
+            "quantity": 39,
+            "unit_price": 479.1,
+            "total_price": 18684.9,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-8211 Motherboard",
+            "quantity": 32,
+            "unit_price": 107.79,
+            "total_price": 3449.28,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-9055 Microprocessor",
+            "quantity": 28,
+            "unit_price": 128.72,
+            "total_price": 3604.16,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-5064 SSD Drive",
+            "quantity": 34,
+            "unit_price": 234.81,
+            "total_price": 7983.54,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-6326 USB Controller",
+            "quantity": 29,
+            "unit_price": 131.23,
+            "total_price": 3805.67,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-8572 USB Controller",
+            "quantity": 4,
+            "unit_price": 108.52,
+            "total_price": 434.08,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-8419 USB Controller",
+            "quantity": 7,
+            "unit_price": 102.66,
+            "total_price": 718.62,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-2738 Network Card",
+            "quantity": 24,
+            "unit_price": 285.41,
+            "total_price": 6849.84,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-1771 Cooling Fan",
+            "quantity": 15,
+            "unit_price": 441.63,
+            "total_price": 6624.45,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-1238 Graphics Card",
+            "quantity": 9,
+            "unit_price": 324.29,
+            "total_price": 2918.61,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-2225 Graphics Card",
+            "quantity": 24,
+            "unit_price": 262.26,
+            "total_price": 6294.24,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-1372 USB Controller",
+            "quantity": 19,
+            "unit_price": 45.72,
+            "total_price": 868.68,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-6208 USB Controller",
+            "quantity": 3,
+            "unit_price": 160.93,
+            "total_price": 482.79,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-5513 Microprocessor",
+            "quantity": 45,
+            "unit_price": 428.3,
+            "total_price": 19273.5,
+            "po_number": "PO-360206"
+        },
+        {
+            "item_name": "PRD-4588 Memory Module",
+            "quantity": 39,
+            "unit_price": 205.12,
+            "total_price": 7999.68,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-7942 Power Supply",
+            "quantity": 19,
+            "unit_price": 48.05,
+            "total_price": 912.95,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-9459 Cooling Fan",
+            "quantity": 16,
+            "unit_price": 336.13,
+            "total_price": 5378.08,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-8913 Network Card",
+            "quantity": 22,
+            "unit_price": 489.96,
+            "total_price": 10779.12,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-6575 USB Controller",
+            "quantity": 9,
+            "unit_price": 134.91,
+            "total_price": 1214.19,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-5309 Memory Module",
+            "quantity": 41,
+            "unit_price": 152.23,
+            "total_price": 6241.43,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-2463 Motherboard",
+            "quantity": 48,
+            "unit_price": 155.39,
+            "total_price": 7458.72,
+            "po_number": "PO-620097"
+        },
+        {
+            "item_name": "PRD-4967 Power Supply",
+            "quantity": 19,
+            "unit_price": 268.47,
+            "total_price": 5100.93,
+            "po_number": "PO-756014"
+        },
+        {
+            "item_name": "PRD-1769 Motherboard",
+            "quantity": 20,
+            "unit_price": 113.63,
+            "total_price": 2272.6,
+            "po_number": "PO-756014"
+        },
+        {
+            "item_name": "PRD-2649 Memory Module",
+            "quantity": 14,
+            "unit_price": 459.39,
+            "total_price": 6431.46,
+            "po_number": "PO-756014"
+        },
+        {
+            "item_name": "PRD-4113 Microprocessor",
+            "quantity": 19,
+            "unit_price": 56.26,
+            "total_price": 1068.94,
+            "po_number": "PO-756014"
+        },
+        {
+            "item_name": "PRD-4823 USB Controller",
+            "quantity": 26,
+            "unit_price": 310.99,
+            "total_price": 8085.74,
+            "po_number": "PO-756014"
+        },
+        {
+            "item_name": "PRD-8435 Power Supply",
+            "quantity": 41,
+            "unit_price": 312.75,
+            "total_price": 12822.75,
+            "po_number": "PO-756014"
+        },
+        {
+            "item_name": "PRD-9612 Microprocessor",
+            "quantity": 23,
+            "unit_price": 301.65,
+            "total_price": 6937.95,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-3310 Microprocessor",
+            "quantity": 37,
+            "unit_price": 31.8,
+            "total_price": 1176.6,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-7041 Memory Module",
+            "quantity": 47,
+            "unit_price": 402.38,
+            "total_price": 18911.86,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-1167 Network Card",
+            "quantity": 36,
+            "unit_price": 172.19,
+            "total_price": 6198.84,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-1991 Memory Module",
+            "quantity": 30,
+            "unit_price": 287.34,
+            "total_price": 8620.2,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-7450 Memory Module",
+            "quantity": 46,
+            "unit_price": 200.1,
+            "total_price": 9204.6,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-8062 Graphics Card",
+            "quantity": 10,
+            "unit_price": 150.36,
+            "total_price": 1503.6,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-3574 Cooling Fan",
+            "quantity": 49,
+            "unit_price": 365.46,
+            "total_price": 17907.54,
+            "po_number": "PO-842742"
+        },
+        {
+            "item_name": "PRD-3154 Microprocessor",
+            "quantity": 26,
+            "unit_price": 247.35,
+            "total_price": 6431.1,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-5950 Cooling Fan",
+            "quantity": 33,
+            "unit_price": 395.16,
+            "total_price": 13040.28,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-8988 SSD Drive",
+            "quantity": 48,
+            "unit_price": 411.78,
+            "total_price": 19765.44,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-9909 HDMI Cable",
+            "quantity": 13,
+            "unit_price": 317.08,
+            "total_price": 4122.04,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-4267 HDMI Cable",
+            "quantity": 48,
+            "unit_price": 349.07,
+            "total_price": 16755.36,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-7856 Power Supply",
+            "quantity": 5,
+            "unit_price": 348.2,
+            "total_price": 1741.0,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-4683 Power Supply",
+            "quantity": 29,
+            "unit_price": 268.37,
+            "total_price": 7782.73,
+            "po_number": "PO-362820"
+        },
+        {
+            "item_name": "PRD-7453 HDMI Cable",
+            "quantity": 22,
+            "unit_price": 242.68,
+            "total_price": 5338.96,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-9473 Microprocessor",
+            "quantity": 28,
+            "unit_price": 217.33,
+            "total_price": 6085.24,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-7092 SSD Drive",
+            "quantity": 13,
+            "unit_price": 123.21,
+            "total_price": 1601.73,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-5621 Graphics Card",
+            "quantity": 1,
+            "unit_price": 429.35,
+            "total_price": 429.35,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-2818 Graphics Card",
+            "quantity": 36,
+            "unit_price": 123.4,
+            "total_price": 4442.4,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-3978 Cooling Fan",
+            "quantity": 49,
+            "unit_price": 281.1,
+            "total_price": 13773.9,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-2599 USB Controller",
+            "quantity": 37,
+            "unit_price": 58.92,
+            "total_price": 2180.04,
+            "po_number": "PO-526365"
+        },
+        {
+            "item_name": "PRD-7695 Microprocessor",
+            "quantity": 31,
+            "unit_price": 431.01,
+            "total_price": 13361.31,
+            "po_number": "PO-360206"
+        }
+    ],
+    "total_details": {
+        "subtotal": 11420.61,
+        "vat": 2284.12,
+        "total_amount": 13704.73
+    },
+    "payment_terms": {
+        "due_date": "20/02/2025",
+        "bank_details": {
+            "iban": "GB29NWBK60161331926819",
+            "swift_code": "NWBKGB2L"
+        }
+    },
+    "validation_report": {
+        "metadata": {
+            "filename": "Invaoice_2.json",
+            "validation_timestamp": "2025-06-08T22:49:23.356903"
+        },
+        "summary": {
+            "price_accuracy_status": "FAIL",
+            "po_detection_status": "FAIL"
+        },
+        "price_validation": {
+            "accuracy_metrics": {
+                "line_item_accuracy": 100.0,
+                "total_calculation_accuracy": 33.33,
+                "overall_price_accuracy": 66.67,
+                "meets_requirement": false,
+                "threshold": 95.0
+            },
+            "line_item_issues": [],
+            "total_calculation_issues": {
+                "subtotal_correct": false,
+                "vat_correct": false,
+                "total_correct": true,
+                "issues": [
+                    {
+                        "type": "subtotal_mismatch",
+                        "expected": 345071.02,
+                        "actual": 11420.61,
+                        "deviation": 333650.41
+                    },
+                    {
+                        "type": "vat_mismatch",
+                        "expected": 69014.2,
+                        "actual": 2284.12,
+                        "deviation": 66730.08,
+                        "rate_used": 0.2
+                    }
+                ]
+            }
+        },
+        "po_validation": {
+            "detection_metrics": {
+                "po_accuracy": 83.33,
+                "meets_requirement": false,
+                "threshold": 90.0,
+                "scenario": "normal_po_detection",
+                "ground_truth_count": 6,
+                "detected_count": 6,
+                "correct_detections": 5,
+                "missed_pos": [
+                    "PO-620087"
+                ],
+                "false_detections": [
+                    "PO-620097"
+                ],
+                "details": {
+                    "ground_truth": [
+                        "PO-526365",
+                        "PO-360206",
+                        "PO-620087",
+                        "PO-756014",
+                        "PO-842742",
+                        "PO-362820"
+                    ],
+                    "detected": [
+                        "PO-842742",
+                        "PO-620097",
+                        "PO-360206",
+                        "PO-526365",
+                        "PO-362820",
+                        "PO-756014"
+                    ],
+                    "correct": [
+                        "PO-842742",
+                        "PO-360206",
+                        "PO-526365",
+                        "PO-362820",
+                        "PO-756014"
+                    ]
+                }
+            },
+            "presence_analysis": {
+                "po_number_status": "partial",
+                "missing_locations": 1,
+                "total_locations": 51,
+                "coverage_percent": 98.04,
+                "found_pos": {
+                    "invoice_level": null,
+                    "line_level": [
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-360206",
+                        "PO-360206",
+                        "PO-360206",
+                        "PO-360206",
+                        "PO-360206",
+                        "PO-360206",
+                        "PO-360206",
+                        "PO-620097",
+                        "PO-620097",
+                        "PO-620097",
+                        "PO-620097",
+                        "PO-620097",
+                        "PO-620097",
+                        "PO-620097",
+                        "PO-756014",
+                        "PO-756014",
+                        "PO-756014",
+                        "PO-756014",
+                        "PO-756014",
+                        "PO-756014",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-842742",
+                        "PO-362820",
+                        "PO-362820",
+                        "PO-362820",
+                        "PO-362820",
+                        "PO-362820",
+                        "PO-362820",
+                        "PO-362820",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-526365",
+                        "PO-360206"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+You are an expert in invoice data extraction. Your task is to extract structured information from the provided raw invoice text and return it strictly in the JSON format described below.
+
+### OUTPUT RULES
+- Output must be ONLY the JSON object, no extra text or explanations.
+- All numerical values must be numbers, not strings.
+- Dates must be in **DD/MM/YYYY** format.
+- Ensure field names and JSON structure match exactly as given.
+- Do not invent or hallucinate values. Only extract what is explicitly mentioned.
+- All PO numbers must begin with the prefix **"PO"** followed by an integer
+- If a field is not present, use null.
+
+### JSON SCHEMA TO FOLLOW
+{{
+  "supplier_details": {{
+    "company_name": string,
+    "address": string,
+    "tax_number": string,
+    "tel": string,
+    "vat": string
+  }},
+  "invoice_details": {{
+    "invoice_number": string,
+    "invoice_date": date (DD/MM/YYYY),
+    "due_date": date (DD/MM/YYYY),
+    "po_number": string (must start with "PO" followed by an integer),
+    "customer_id": string
+  }},
+  "bill_to_details": {{
+    "company_name": string,
+    "address": string,
+    "tax_id": string,
+    "vat": string
+  }},
+  "line_items": [
+    {{
+      "item_name": string,
+      "quantity": number,
+      "unit_price": number,
+      "total_price": number,
+      "po_number": string (must start with "PO" followed by an integer)
+    }}
+  ],
+  "total_details": {{
+    "subtotal": number,
+    "vat (20%)": number,
+    "total": number
+  }},
+  "payment_terms": {{
+    "payment_method": string,
+    "bank_details": string,
+    "due_date": date (DD/MM/YYYY),
+    "iban": string
+    "swift_code": string
+  }}
+}}
+
+### INVOICE TEXT
+\"\"\"{invoice_text}\"\"\"
+
+### JSON OUTPUT ONLY:

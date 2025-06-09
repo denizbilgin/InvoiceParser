@@ -12,6 +12,10 @@ class TextBasedPDFReader(Reader):
         self.pdf_type = PDFType.TEXT_BASED
 
     def read_content(self) -> Dict[str, Any]:
+        """
+        This function reads content from native PDFs. Tries 2 PDF reader library, and uses the best one.
+        :return: A dictionary containing data read from a file
+        """
         if not self.validate_file():
             return {
                 'success': False,
@@ -21,8 +25,11 @@ class TextBasedPDFReader(Reader):
         try:
             # Reading with PyPDF2
             content_pypdf2 = self._read_with_pypdf2()
+
+            # Reading with PDFPlumber
             content_pdfplumber = self._read_with_pdfplumber()
 
+            # Selecting the better one
             final_content = content_pdfplumber if len(content_pdfplumber.get('text', '')) > len(content_pypdf2.get('text', '')) else content_pypdf2
 
             return {
@@ -35,6 +42,10 @@ class TextBasedPDFReader(Reader):
             print(f"PDF reading error: {e}")
 
     def _read_with_pypdf2(self) -> Dict[str, Any]:
+        """
+        This function reads content from native PDFs. Uses PyPDF2 for reading PDFs,
+        :return: A dictionary containing data read from a file
+        """
         try:
             with open(self.file_path, 'rb') as file:
                 pdf_reader = PyPDF2.PdfReader(file)
@@ -43,6 +54,8 @@ class TextBasedPDFReader(Reader):
 
                 for page_num, page in enumerate(pdf_reader.pages):
                     page_text = page.extract_text()
+
+                    # Grouping the data
                     tables = extract_tables_from_page_text(page_text)
 
                     pages_content.append({
@@ -65,6 +78,10 @@ class TextBasedPDFReader(Reader):
             return {"text": "", "pages": [], "pages_count": 0, "error": str(e)}
 
     def _read_with_pdfplumber(self) -> Dict[str, Any]:
+        """
+        This function reads content from native PDFs. Uses PDFPlumber for reading PDFs,
+        :return: A dictionary containing data read from a file
+        """
         try:
             with pdfplumber.open(self.file_path) as pdf:
                 pages_content = []
@@ -72,6 +89,8 @@ class TextBasedPDFReader(Reader):
 
                 for page_num, page in enumerate(pdf.pages):
                     page_text = page.extract_text() or ""
+
+                    # Grouping the data with built-in function of PDFPlumber
                     tables = page.extract_tables()
 
                     page_info = {

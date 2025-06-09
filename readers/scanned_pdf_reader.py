@@ -4,11 +4,9 @@ from typing import List
 import PyPDF2
 from utils import preprocess_image, extract_tables_from_page_text, ocr_text_with_paragraphs
 import fitz
-import pytesseract
 from readers.pdf_type import PDFType
 from readers.abstracts.reader import Reader
 from PIL import Image
-import layoutparser as lp
 
 
 class ScannedPDFReader(Reader):
@@ -18,6 +16,10 @@ class ScannedPDFReader(Reader):
         self.ocr_config = '--oem 3 --psm 6'
 
     def read_content(self) -> Dict[str, Any]:
+        """
+            This function reads content from scanned PDFs. Because of the file is scanned, this function performs OCR.
+            :return: A dictionary containing data read from a file
+        """
         if not self.validate_file():
             return {
                 'success': False,
@@ -32,6 +34,8 @@ class ScannedPDFReader(Reader):
             for page_number, image in enumerate(images):
                 processed_image = preprocess_image(image)
                 page_text = ocr_text_with_paragraphs(processed_image, ocr_config=self.ocr_config)
+
+                # Grouping the page
                 tables = extract_tables_from_page_text(page_text)
 
                 pages_content.append({
@@ -59,6 +63,10 @@ class ScannedPDFReader(Reader):
             return {"success": False, "error": str(e)}
 
     def _pdf_to_images(self) -> List[Image.Image]:
+        """
+        This function converts scanned PDFs to images. The function uses Fitz library for convertion.
+        :return: Images of all pages
+        """
         images: List[Image.Image] = []
         try:
             document = fitz.open(self.file_path)
@@ -66,7 +74,7 @@ class ScannedPDFReader(Reader):
             for page_number in range(len(document)):
                 page = document.load_page(page_number)
 
-                mat = fitz.Matrix(2, 2)
+                mat = fitz.Matrix(2, 2)     # x2 Zoom setting
                 pix = page.get_pixmap(matrix=mat)
                 img_data = pix.tobytes("ppm")
 
@@ -80,6 +88,10 @@ class ScannedPDFReader(Reader):
         return images
 
     def _pdf_to_images_alternative(self) -> List[Image.Image]:
+        """
+        This function is an alternative for converting PDFs to image format. The function uses PDF2Image library for convertion.
+        :return: Images of all pages
+        """
         images = []
 
         try:
