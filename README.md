@@ -18,7 +18,6 @@ Deniz Bilgin - denizbilgin156@gmail.com
 - Factory Pattern kullanarak PDF türünü (scanned veya klasik PDF) otomatik olarak tespit eden ve buna göre işlem yapmamızı sağlayan otomatize edilmiş bir sistem de geliştirdim.
 
 ### Analyzers
-- Bu kısım, projeyi geliştirirken üzerinde en çok düşündüğüm bölümdü.
 - Projenin bu aşaması için çok çeşitli araçlar denedim; ancak yapay zekânın gücü olmadan, aşırı esnek bir fatura gruplama sistemi yazmak oldukça zor bir iş.
 - Bu nedenle, bir yapay zeka mühendisi olarak burada yapay zekânın gücünden faydalanmaya karar verdim.
 - Mülakatta LLM'leri (Large Language Model) veri güvenliği nedeniyle kullanmak istemediğinizden bahsetmiştiniz. Projenin bu aşamasında, bilgisayarıma indirip yerel olarak çalıştırdığım LLM'leri bu görev için kullandım.
