@@ -6,7 +6,7 @@ Deniz Bilgin - denizbilgin156@gmail.com
 ## Proje Hakkında
 - Bu projeyi geliştirirken clean code prensiplerini takip ederek soyutlama teknikleriyle sürdürülebilir ve kolay güncellenebilir bir yapı oluşturdum.
 - Projeyi 3 ana bileşene ayırdım ve her birini bağımsız şekilde tasarlayıp geliştirdim:
-  - Reader'lar (PDF'lerden OCR ve metin okuma),
+  - Reader'lar (PDF'lerden OCR kullanarak metin okuma),
   - Analyzer'lar (mantıksal gruplama),
   - Validator'lar (doğrulama ve nihai raporun oluşturulması).
 - Her aşamada elde ettiğim çıktıyı inceleyebilmeniz için onları `outputs` klasörünün içine export ettim.
